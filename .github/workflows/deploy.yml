@@ -28,4 +28,4 @@ jobs:
         with:
           branch: gh-pages  # 部署到 gh-pages 分支
           folder: dist      # 构建后的文件夹
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN_TRAVEL }}
